@@ -159,3 +159,8 @@ language translations, unit/integration tests are welcomed and appreciated
 but will be thoroughly reviewed and discussed.
 
 I hope this helps you in building your next android app.
+
+# Travis-CI
+
+[![Build Status](https://travis-ci.org/sh1nj1/XXXXX.png)](https://travis-ci.org/sh1nj1/android-bootstrap)
+
