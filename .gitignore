@@ -1,3 +1,6 @@
+.gradle
+local.properties
+
 */target
 target
 tmp
