@@ -46,6 +46,11 @@ All import statments that reference the old resources (__R.com.donnfelker.androi
 
 The end result is that you will be given a zip file with the correct structure. Open the zip and then execute *mvn clean package* and your app should be ready for development. 
 
+Quick Tips:
+After cloning the project type: ./start-generation.sh "App name" "package name" 
+mvn clean package
+Android Studio ---> Open Project
+Boom !
 Enjoy!
 
 The application 

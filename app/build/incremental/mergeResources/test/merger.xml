@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/src/instrumentTest/res" />
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/build/res/rs/test" />
+    </dataSet>
+
+</merger>

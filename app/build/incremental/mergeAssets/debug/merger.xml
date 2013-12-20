@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComGithubKevinsawickiWishlist09.aar" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/build/exploded-bundles/ComGithubKevinsawickiWishlist09.aar/assets" />
+    </dataSet>
+    <dataSet config="ComActionbarsherlockViewpagerindicator241.aar" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/build/exploded-bundles/ComActionbarsherlockViewpagerindicator241.aar/assets" />
+    </dataSet>
+    <dataSet config="ComAndroidSupportAppcompatV71900.aar" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/build/exploded-bundles/ComAndroidSupportAppcompatV71900.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/src/main/assets" >
+            <file
+                name="fonts/Roboto-Regular.ttf"
+                path="/Users/sarpe/xmas/android-bootstrap/app/src/main/assets/fonts/Roboto-Regular.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/sarpe/xmas/android-bootstrap/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,6 @@
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.androidbootstrap"
+    android:icon="@drawable/icon"
+    android:label="@string/app_name"
+    android:smallIcon="@drawable/icon" />
+<!-- From: file:/Users/sarpe/xmas/android-bootstrap/app/src/main/res/xml/authenticator.xml -->

@@ -7,7 +7,7 @@
     <artifactId>android-bootstrap</artifactId>
     <packaging>apk</packaging>
     <name>Android Bootstrap app</name>
-    <url>https://github.com/donnfelker/android-bootstrap</url>
+    <url>https://github.com/simoarpe/android-bootstrap</url>
 
     <parent>
         <version>1.0</version>
@@ -16,6 +16,7 @@
     </parent>
 
     <properties>
+        <jackson.version>2.2.3</jackson.version>
         <abs.version>4.3.1</abs.version>
         <dagger.version>1.0.1</dagger.version>
         <otto.version>1.3.4</otto.version>
@@ -117,6 +118,23 @@
             <artifactId>mockito-core</artifactId>
             <version>1.9.5</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId> com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId> com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId> com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
     <build>

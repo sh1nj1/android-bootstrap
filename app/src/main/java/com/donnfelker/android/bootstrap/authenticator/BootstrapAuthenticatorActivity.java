@@ -38,8 +38,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
+import com.donnfelker.android.bootstrap.R;
 import com.donnfelker.android.bootstrap.core.Constants;
 import com.donnfelker.android.bootstrap.core.User;
+import com.donnfelker.android.bootstrap.developer.DeveloperConstants;
 import com.donnfelker.android.bootstrap.util.Ln;
 import com.donnfelker.android.bootstrap.util.SafeAsyncTask;
 import com.donnfelker.android.bootstrap.util.Strings;
@@ -135,6 +137,12 @@ public class BootstrapAuthenticatorActivity extends SherlockAccountAuthenticator
                 false);
 
         setContentView(layout.login_activity);
+        AutoCompleteTextView email = (AutoCompleteTextView)findViewById(R.id.et_email);
+        EditText passw = (EditText)findViewById(R.id.et_password);
+        if(DeveloperConstants.PREFILL_LOGIN){
+        email.setText("demo@androidbootstrap.com");
+        passw.setText("android");
+        }
 
         Views.inject(this);
 

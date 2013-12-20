@@ -1,0 +1,7 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1385423563000 516 86d712d686f94ebc1b291f5346b93ce74e1c6f7e /Users/sarpe/xmas/android-bootstrap/app/build/classes/test/com/donnfelker/android/bootstrap/debug/test/BuildConfig.class
+1385422095000 28569 9b473564e792c2bdf1449da1f0b1b5bff9805704 /Users/sarpe/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+1385422130000 76643 860340562250678d1a344907ac75754e259cdb14 /Users/sarpe/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+1385422095000 1500011 c3264abeea62c4d2f367e21484fbb40c7e256393 /Users/sarpe/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
