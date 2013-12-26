@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Bootstrap.Dark" parent="@style/Theme.AppCompat">
         <item name="android:windowBackground">@color/pager_background</item>
         <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/Widget.Styled.ActionBar</item>
     </style>
 
     <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
