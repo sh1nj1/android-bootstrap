@@ -44,6 +44,7 @@ android {
         targetSdkVersion 19
         versionCode 102
         versionName '1.0'
+        testPackageName 'com.donnfelker.android.bootstrap.tests'
     }
 
     // signingConfigs {
